@@ -2,11 +2,11 @@
 
 Things I use to write better - currently just a tool I use to remove excess language - based on my own bad habits & lists from others.
 
-## Use
+## Find Bad Patterns
 
 ```bash
 $ chmod u+x find_patterns
-$ ./find_patterns path/to/file
+$ ./patterns path/to/file
 ```
 
 Will show line number & bad pattern:
@@ -18,4 +18,13 @@ Will show line number & bad pattern:
 is that it
 329:ways in which
 335:all of the
+```
+
+## Spell Check
+
+Counts spelling mistakes:
+
+```bash
+$ chmod u+x find_patterns
+$ ./spell path/to/file
 ```

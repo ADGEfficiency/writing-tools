@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-POST=$1
-grep -ionf patterns.txt $POST
