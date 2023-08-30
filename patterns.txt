@@ -7,7 +7,7 @@ interestingly
 surprisingly
 remarkably
 clearly
-very
+\bvery\b
 extremely
 of this
 it is important to
