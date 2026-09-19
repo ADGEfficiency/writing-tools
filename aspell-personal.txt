@@ -1,0 +1,9 @@
+personal_ws-1.1 en 0
+ai
+autocomplete
+ish
+CodeCompanion
+Kimi
+Neovim
+OpenRouter
+Qwen

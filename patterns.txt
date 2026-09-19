@@ -1,3 +1,6 @@
+# Weasel words and clumsy phrases — grep -f input for check-draft.sh.
+# One phrase per line. Lines starting with # and blank lines are stripped
+# before use. No regex: word boundaries come from grep -w.
 there is some
 various
 a number of
@@ -7,7 +10,7 @@ interestingly
 surprisingly
 remarkably
 clearly
-\bvery\b
+very
 extremely
 of this
 it is important to
@@ -21,7 +24,6 @@ key challenges
 some of the reasons
 one reason is that
 as an example
-interestingly
 one of the most important
 can be categorized
 note how
@@ -37,7 +39,6 @@ not trying to argue
 than it is already
 Bother to
 will make up a
-very
 ways in which
 this means that
 a bit
@@ -71,15 +72,10 @@ is that it
 really
 well
 though
-the fact that
 is one that
 in fact
 part of the
-a number of
 # https://advice.writing.utoronto.ca/wp-content/uploads/sites/2/wordiness.pdf
-very
-really
-extremely
 definitely
 a considerable amount of
 to a certain extent
